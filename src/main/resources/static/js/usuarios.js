@@ -44,8 +44,8 @@ async function cargarUsuarios(){
 function getHeader(){
     return {
         'Accept': 'application/json',
-            'Content-Type': 'application/json',
-            'Authorization': localStorage.token
+        'Content-Type': 'application/json',
+        'Authorization': localStorage.token
     };
 }
 
